@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imgs/favicon.png" />
+    <title>SocialKit</title>
+</head>
+<body>
+    
+<nav >
+
+    <div class="leftsid-nav">
+
+        <div class="logo">
+            <svg width="50px" xmlns="http://www.w3.org/2000/svg" viewBox="-200 291.3 210.7 210.7"><path d="M-122.3 410.3h16.8l81.9-102.1h-142v177l43.2-53.9v-21h.1zm0-56.8h62.4l-10.2 12.7h-52.2v-12.7z" fill="#fff"/></svg>
+        </div>
+
+        <div class=" logos" id="heart">
+           
+        <div class="heart">
+            <i class="fas fa-heart color"></i>
+        </div>    
+            <div class="friend-request">
+                <h3>FRIEND REQUESTS</h3>
+                <div class="firstFriend">
+                    <img src="imgs/bobby.jpg" alt="bobby-user">
+                    <div class="p">
+                        <h4 class="titleFriend">Bobby brown</h4>
+                        <span class="common">Najeel verwick is a common friend</span>
+                    </div>
+                    <i class="fas fa-user-friends add"></i>
+                    <i class="fas fa-user-times remove"></i>
+                </div>
+                <div class="firstFriend">
+                    <img src="imgs/dan.jpg" alt="bobby-user">
+                    <div class="p">
+                        <h4 class="titleFriend">Dan Walker</h4>
+                        <span class="common">You have 4 common friends</span>
+                    </div>
+                    <i class="fas fa-user-friends add"></i>
+                    <i class="fas fa-user-times  remove"></i>
+                </div>
+                <div class="firstFriend">
+                    <img src="imgs/nelly.png" alt="bobby-user">
+                    <div class="p">
+                        <h4 class="titleFriend">Nelly Schwartz</h4>
+                        <span class="common" >You have 6 common friends</span>
+                    </div>
+                    <i class="fas fa-user-friends add"></i>
+                    <i class="fas fa-user-times remove"></i>
+                </div>
+                <div class="firstFriend">
+                    <img src="imgs/milly.jpg" alt="bobby-user">
+                    <div class="p">
+                        <h4 class="titleFriend">Milly Augustine</h4>
+                        <span class="common">You have 8 common friends</span>
+                    </div>
+                    <i class="fas fa-user-friends add"></i>
+                    <i class="fas fa-user-times  remove"></i>
+                </div>
+            </div>
+
+            <div class="add-dismiss" id="showthis"></div>
+        </div>
+        <div class="notify logos">
+            <div class="notifys">
+                <i class="far fa-bell"></i>
+            </div>
+
+            <div class="notification-list">
+                <h3>Notification</h3>
+                <div class="notfiy1">
+                    <img src="imgs/bobby.jpg" alt="bobby-user">
+                    <div class="p">
+                        <h4 class="titleFriend">Bobby brown comment on your post</h4>
+                        <span class="common">30 minutes ago</span>
+                    </div>
+                    <i class="fas fa-comment-alt"></i>
+                </div>
+                <div class="notfiy1">
+                    <img src="imgs/dan.jpg" alt="bobby-user">
+                    <div class="p">
+                        <h4 class="titleFriend">Dan Walker liked your profile.</h4>
+                        <span class="common">10 minutes ago</span>
+                    </div>
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div class="notfiy1">
+                    <img src="imgs/nelly.png" alt="bobby-user">
+                    <div class="p">
+                        <h4 class="titleFriend">Nelly Schwartz shared a New video on your wall.</h4>
+                        <span class="common" >Yesterday</span>
+                    </div>
+                    <i class="fas fa-play-circle"></i>
+                </div>
+                <div class="notfiy1">
+                    <img src="imgs/milly.jpg" alt="bobby-user">
+                    <div class="p">
+                        <h4 class="titleFriend">Milly Augustine shared an Image with you an 2 other people.</h4>
+                        <span class="common">2 days ago</span>
+                    </div>
+                    <i class="fas fa-image"></i>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="message logos">
+            <div>
+            <i class="far fa-envelope"></i>
+        </div>
+        <div class="chat">
+            <div class="chat-nav">
+                <div class="leftside-chat">
+                <div class="logooo">
+                    <svg width="50px" xmlns="http://www.w3.org/2000/svg" viewBox="-200 291.3 210.7 210.7"><path d="M-122.3 410.3h16.8l81.9-102.1h-142v177l43.2-53.9v-21h.1zm0-56.8h62.4l-10.2 12.7h-52.2v-12.7z" fill="#fff"/></svg>
+                </div>
+                <div class="avaialbility">
+                    <img src="imgs/bobby.jpg" alt="bobby" id="availImg">
+                    <div class="name">
+                        <h4 id="name-of">bobby</h4>
+                        <div class="status">
+                            <i class="fas fa-star"></i> 
+                            <span>online</span>
+                        </div>
+                      
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="right-exit" id="exit">
+                <i class="fas fa-power-off"></i>
+            </div>
+
+            </div>
+            <div class="chat-message">
+
+                <div class="message-partss">
+
+                    <div class="person1">
+                        <p>Hi <span id="greeting">bobby</span> How are you?</p>
+                    </div>
+                    <div class="person2">
+                        <p>Good and you?</p>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="reply">
+
+                    </div>
+                </div>
+
+                <div class="imgs-part">
+                    <img src="imgs/bobby.jpg" id="bobby" class="Imgschat">
+                    <img src="imgs/dan.jpg" id="dan" class="Imgschat">
+                    <img src="imgs/jenna.png" id="jenna" class="Imgschat">
+                    <img src="imgs/milly.jpg" id="milly" class="Imgschat">
+                    <img src="imgs/nelly.png" id="nelly" class="Imgschat">
+                   
+                </div>             
+            </div>
+            <div class="input22"> 
+                <input  type="text" placeholder="your message" id="message-reply">
+                <i class="fas fa-plus" id="add"></i>
+            </div>
+        </div> 
+        </div>
+        <div class="comment logos">
+            <i class="far fa-comment-alt"></i>
+        </div>
+
+    </div>
+
+    <div class="rightsid-nav">
+        <div class="search">
+            <div class="search">
+                <input type="text" placeholder="search">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="user">
+                <img src="imgs/jenna.png" alt="jenna-user">
+            </div>
+            
+            
+        </div>
+    </div>
+
+</nav>
+
+ <div class="bigcontainer">
+     <div class="i"></div>
+<div class="container">
+    <section class="left">
+     
+        <div id="weathers">
+            <div class="fonts"> 
+                
+                Weather
+            
+            
+                <div id="locations">
+                    
+                </div></div>
+           
+            <div class="w-contain" id="weather">
+
+            </div>
+           
+        </div>
+
+        <div class="recommended-pages" >
+
+            <div id="subscribed">
+
+                <p id="subscridt"></p>
+
+
+            </div>
+            <div class="recommen-title">
+                <h3>Recommended Pages</h3> 
+            </div>
+
+            <div class="recommend-s">
+                <div class="page1 pages">
+                    <svg class="width" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="-155 247 300 300" xml:space="preserve"><style>.st2{fill:#fff}</style><path fill="#4c6ee5" d="M-154.6 247.4H145V547h-299.6z"/><path fill="#4067d3" d="M-70.1 421.4L-23.3 547H145v-93L79.7 345.4l-59 78.6L-5 436.7l-37.1-.7z"/><path class="st2" d="M74.8 345.4H36.4c-10.3 0-19.8 3.5-27.2 9.5 4 7.8 6.2 16.6 6.2 26 0 26.2-21.3 47.6-47.6 47.6h-10.7c-9.9 0-19.2-2.5-27.2-7 3.5 5.8 7.7 11.1 12.6 16 15.2 14.9 35.4 23.1 56.8 23.1s41.5-8.2 56.8-23.1c15.3-14.9 23.7-34.7 23.7-55.7v-31.3c-.1-2.9-2.3-5.1-5-5.1zm-34.1 41.4c-2.7 0-5-2.2-5-5s2.2-5 5-5c2.7 0 5 2.2 5 5s-2.3 5-5 5z"/><path class="st2" d="M-41.8 333.5h-42.9c-2.7 0-5 2.2-5 5v22H-58c2.7 0 5 2.2 5 5 0 2.7-2.2 5-5 5h-31.7v1.2c0 4 .5 7.9 1.5 11.6H-58c2.7 0 5 2.2 5 5s-2.2 5-5 5h-26.5c7.8 15 23.5 25.3 41.6 25.3h10.7c20.8 0 37.7-16.9 37.7-37.7 0-26.2-21.2-47.4-47.3-47.4z"/></svg>
+                   <h3>Fast pizza</h3>
+                    <i id="book" class="fas fa-bookmark"></i>
+                    
+                </div>
+                <div class="page2 pages">
+                    <svg  class="width" xmlns="http://www.w3.org/2000/svg" viewBox="-155 247 300 300"><path fill="#3ae88d" d="M-154.6 247.4H145V547h-299.6z"/><path d="M-65.3 429.8c0 33.6 26.7 60.3 60.3 60.3s60.3-26.7 60.3-60.3v-34.5H-65.3v34.5zm95.6-100l18.1-18.1-6.9-6.9-19.8 19.8c-7.8-4.3-17.2-6.9-26.7-6.9s-19 2.6-26.7 6l-19.8-19.8-6.9 7.8 18.1 18.1c-15.5 10.3-25 28.4-25 48.3v8.6H55.3V378c0-19.8-9.4-37.9-25-48.2zm-61.2 39.6c-5.2 0-8.6-3.4-8.6-8.6 0-5.2 3.4-8.6 8.6-8.6s8.6 3.4 8.6 8.6c.1 5.2-3.4 8.6-8.6 8.6zm51.8 0c-5.2 0-8.6-3.4-8.6-8.6 0-5.2 3.4-8.6 8.6-8.6s8.6 3.4 8.6 8.6c0 5.2-3.5 8.6-8.6 8.6z" fill="#fff"/></svg>
+                   <h3>Lonely Droid</h3>
+                    <i id="book" class="fas fa-bookmark"></i>
+                    
+                </div>
+                <div class="page3 pages">
+                    <svg class="width" version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="-155 247 300 300" xml:space="preserve"><style>.st1{fill:#fff}</style><path fill="#fcaa32" d="M-154.6 247.4H145V547h-299.6z"/><path class="st1" d="M26.8 467v-67.7l-30.4 40.5h-3.5l-29.7-40.7V467h-17.6v-93.3h20.3l29.2 40.1 29.2-40.1h20.1V467H26.8z"/><path class="st1" d="M26.8 420.3v-67.7l-30.4 40.5h-3.5l-29.7-40.7v67.9h-17.6V327h20.3l29.2 40.1L24.3 327h20.1v93.3H26.8z"/></svg>
+                   <h3>Meta Movies</h3>
+                    <i id="book" class="fas fa-bookmark"></i>
+                   
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="middle">
+
+     <div class="feed-all">
+
+        <div class="choose-info">
+            <div class="publish">
+                <i class="fas fa-pen"></i>
+                <p>Publish</p>
+            </div>
+            <div class="albums">
+                <i class="fas fa-image"></i>
+                <p>albums</p>
+            </div>
+            <div class="video">
+                <i class="fas fa-video"></i>
+                <p>video</p>
+            </div>
+        </div>
+
+        <div class="your-status">
+        <img src="imgs/jenna.png" alt="jenna-user">
+        <textarea placeholder="write somthing" cols="70" rows="5" id="text-status"></textarea>
+    </div>
+    <div class="pick-up">
+        <div class="media">
+            <button class="camera">
+                <i class="fas fa-camera"></i>
+                Media
+                <input type="file" class="file">
+            </button>
+            
+        </div>
+        <div class="activity">
+
+            <button class="camera feeling">
+                <i class="fas fa-grin-beam see"></i>
+                   <span class="see">activity</span> 
+                    <div class="feels">
+                        <p class="emojis"><i class="fas fa-angry "></i> angry</p>
+                        <p class="emojis"><i class="fas fa-dizzy "></i> dizzy</p>
+                        <p class="emojis"><i class="fas fa-grin-beam "></i> happy</p>
+                        <p class="emojis"><i class="fas fa-grin-stars "></i> better</p>
+                        <p class="emojis"><i class="fas fa-tired "></i> tired</p>
+                    </div>
+            </button>
+           <div id="how-feels">
+           </div>
+
+        </div>
+    </div>
+     </div>
+
+     <div class="test-post" id="test">
+    
+     </div>
+
+
+
+
+    </section>
+    
+    <div class="loading">
+        <div class="loadingio-spinner-bean-eater-s4fkfn3mzfb"><div class="ldio-tcmirb2ftqn">
+            <div><div></div><div></div><div></div></div><div><div></div><div></div><div></div></div>
+            </div></div>
+
+    </div>
+</div>
+</div>
+
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script  src="script.js"></script>
+    <script src="https://kit.fontawesome.com/ffcf8b7784.js" crossorigin="anonymous"></script>
+</body>
+</html>
